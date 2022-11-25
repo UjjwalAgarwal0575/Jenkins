@@ -2,7 +2,7 @@
 # Test case for adding two numbers
 import unittest
 
-from Prog1 import summation
+from Prog1 import mul
 
 class TestSum(unittest.TestCase):
     def test_list_int(self):
@@ -10,21 +10,21 @@ class TestSum(unittest.TestCase):
         Test case to add two numbers
         """
         data = [2, 3]
-        result = summation(data)
+        result = mul(data)
         self.assertEqual(result, 1)
     def test_list_int(self):
         """
         Test case to add two numbers
         """
         data = [0, 30]
-        result = summation(data)
+        result = mul(data)
         self.assertEqual(result, 30)
     def test_list_int(self):
         """
         Test case to add two numbers
         """
         data = [2,1]
-        result = summation(data)
+        result = mul(data)
         self.assertEqual(result, 5)
 
 if __name__ == '__main__':

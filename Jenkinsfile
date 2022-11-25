@@ -18,11 +18,11 @@ pipeline {
                 sh "./Test.py"
             }
         }
-        stage('Test Code fail') {
-            steps {
-                sh "chmod u+x test.py"
-                sh "./test.py"
-            }
-        }
+        // stage('Test Code fail') {
+        //     steps {
+        //         sh "chmod u+x test.py"
+        //         sh "./test.py"
+        //     }
+        // }
     } 
 }

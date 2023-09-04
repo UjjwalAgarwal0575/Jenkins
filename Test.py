@@ -32,21 +32,21 @@ class TestSum(unittest.TestCase):
         """
         data = [2, 3]
         result = mul(data)
-        self.assertEqual(result, 1)
+        self.assertEqual(result, 6)
     def test_list_int5(self):
         """
         Test case to add two numbers
         """
         data = [0, 30]
         result = mul(data)
-        self.assertEqual(result, 30)
+        self.assertEqual(result, 0)
     def test_list_int6(self):
         """
         Test case to add two numbers
         """
         data = [2,1]
         result = mul(data)
-        self.assertEqual(result, 5)
+        self.assertEqual(result, 2)
 
 if __name__ == '__main__':
     unittest.main()
